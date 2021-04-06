@@ -8,7 +8,7 @@ body{
 }
 #input{
   position: absolute;
-  height:30%;
+  height:20%;
   width:100%;
   margin: 0;
   border-radius: 20px 20px 0px 0px;
@@ -29,13 +29,14 @@ body{
 }
 #demo{
   position: absolute;
-  height:70%;
+  height:80%;
   width:100%;
-  top: 30%;
+  top: 20%;
   background-color: black;
   border-radius: 0px 0px 20px 20px;
 }
 #num{
+  position: relative;
   width:20%;
   height:20%;
   background-color: white;
@@ -47,8 +48,9 @@ body{
   transform: translate(35%,5%);
 }
 span{
-  position: relative;
-  left: 47%;
-  top: 30%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
   font-size:80px;
 }
